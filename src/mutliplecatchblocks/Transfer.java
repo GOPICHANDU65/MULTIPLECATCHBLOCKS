@@ -18,7 +18,8 @@ public class Transfer {
     public void handleSecurityException(Bank bank) throws SecurityException{
         try{
             bank.getMPin(6677);
-        }catch(SecurityException e){
+        }
+        catch(SecurityException e){
             System.out.println("Wrong Pin");
             throw e;
         }

@@ -9,8 +9,6 @@ public class Bank {
     int mPin=6677;
 
 
-
-
     public void getConnection()throws IOException {
         if(!connection){
             throw new IOException("Please Try again later");

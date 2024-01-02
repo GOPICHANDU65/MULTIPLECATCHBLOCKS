@@ -1,7 +1,7 @@
 
 public class SchoolFee  {
 
-    int schoolfee;
+    int schoolfee=30000;
 
     public int getHallticket(int PayedAmmount, int schoolfee) throws Exception{
         if(schoolfee - PayedAmmount == 0){
